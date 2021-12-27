@@ -12,18 +12,23 @@ body {
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header h1 {
-    display: inline-block;
     font-size: 48px;
+    color: #ffffff;
+    display: inline;
 }
 
 .header h1 .seo {
     color: #d9dcd6;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 header nav {
@@ -32,26 +37,18 @@ header nav {
 
 header nav ul li {
     display: inline;
-    margin-left: 25px;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;   
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: #ffffff;   
+    display: inline;
+    font-size: 20px;
+    margin-left: 25px;
+    padding-top: 15px;
+    margin-right: 20px;
 }
-
-
-
 
 /* Hero Style Start */
 
-/* p {
-    font-size: 16px; */
 
 .hero {
     height: 800px;
@@ -190,7 +187,6 @@ header nav ul li a {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 footer {
     padding: 30px;
